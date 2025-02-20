@@ -521,6 +521,7 @@ select {
 	justify-content: space-between;
 	align-items: center;
 	gap: 24px;
+	
 	padding: 40px 0 60px;
 }
 

@@ -23,6 +23,13 @@
 	.product__link {
 		width: 100%;
 	}
+	.news__blog-list{
+		display: grid;
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.news__blog-link{
+		width: 100%;
+	}
 	.footer__nav {
 		gap: 150px;
 	}
@@ -165,6 +172,14 @@
 	.news__blog-recommend {
 		font-size: 18px;
 		padding: 13px 20px;
+	}
+	.news__blog-desc{
+	margin-bottom: 30px;	
+	display: -webkit-box;
+	-webkit-line-clamp: 4;
+	-webkit-box-orient: vertical;
+		overflow: hidden;
+	
 	}
 }
 
