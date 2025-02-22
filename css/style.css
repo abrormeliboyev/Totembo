@@ -4,11 +4,11 @@
 /* ---------- VARIABLES ---------- */
 :root {
 	/* fonts */
-	--ff-mr: 'Montserrat-Regular';
-	--ff-mb: 'Montserrat-Bold';
+	--ff-mr: "Montserrat-Regular";
+	--ff-mb: "Montserrat-Bold";
 	--fw-400: 400;
 	--fw-700: 700;
-	
+
 	/* colors */
 	--color-light: #f1f1f1;
 	--color-white: #ffffff;
@@ -102,7 +102,7 @@ select {
 }
 
 .header__nav-link::after {
-	content: '';
+	content: "";
 	position: absolute;
 	right: 0;
 	left: 0;
@@ -161,7 +161,8 @@ select {
 	opacity: 0;
 	font-size: 14px;
 }
-
+.hidden-header__wrapper-btn-favourite__modal-open.active,
+.hidden-header__wrapper-btn-cart__modal-open.active,
 .header__wrapper-favourite-count.active,
 .header__wrapper-cart-count.active {
 	opacity: 1;
@@ -205,7 +206,7 @@ select {
 }
 
 .hidden-header__nav-link::after {
-	content: '';
+	content: "";
 	position: absolute;
 	right: 0;
 	left: 0;
@@ -383,7 +384,7 @@ select {
 }
 
 .product__link {
-	position: relative;	
+	position: relative;
 	width: 416px;
 	height: 485px;
 	display: flex;
@@ -521,7 +522,7 @@ select {
 	justify-content: space-between;
 	align-items: center;
 	gap: 24px;
-	
+
 	padding: 40px 0 60px;
 }
 
@@ -541,11 +542,11 @@ select {
 }
 
 .news__blog-bg-1 {
-	background-image: url('../assets/images/news-1.png');
+	background-image: url("../assets/images/news-1.png");
 }
 
 .news__blog-bg-2 {
-	background-image: url('../assets/images/news-2.png');
+	background-image: url("../assets/images/news-2.png");
 }
 
 .news__blog-recommend {
@@ -632,7 +633,7 @@ select {
 	font-size: 22px;
 	font-weight: 600;
 	color: var(--color-white);
-	
+
 	text-transform: uppercase;
 }
 
@@ -645,7 +646,7 @@ select {
 }
 
 .footer__link::after {
-	content: '';
+	content: "";
 	position: absolute;
 	right: 0;
 	left: 0;
@@ -721,7 +722,8 @@ select {
 
 .cart__modal,
 .favourite__modal {
-	width: 800px;
+	width: 100%;
+	max-width: 800px;
 	height: 500px;
 	display: flex;
 	flex-direction: column;
@@ -760,7 +762,7 @@ select {
 	flex-direction: column;
 	gap: 20px;
 	height: 100%;
-	
+
 	background-color: transparent;
 	padding: 20px;
 	overflow-y: scroll;
