@@ -269,9 +269,9 @@ const languageArr = {
 	},
 	// FOOTER ADDRESS
   footerAddress: {
-    en: 'St. Askiya, Yakkasaray district, Tashkent, Uzbekistan',
-		ru: 'Ул. Аския, Яккасарайский район, Ташкент, Узбекистан',
-		uz: "Ko'ch. Askiya, Yakkasaroy tumani, Toshkent, O'zbekiston",
+    en: 'St. Faravon, Yangiyol district, Tashkent, Uzbekistan',
+		ru: 'Ул. Фаравон,Яангийол  район, Ташкент, Узбекистан',
+		uz: "Ko'ch. Faravon, Yangiyol tumani, Toshkent, O'zbekiston",
   },
   footerSocialsTitle: {
     en: 'Social Media',
