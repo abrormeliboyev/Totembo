@@ -269,9 +269,9 @@ const languageArr = {
 	},
 	// FOOTER ADDRESS
   footerAddress: {
-    en: 'St. Faravon, Yangiyul city ,  Uzbekistan',
-		ru: 'Ул. Фаравон, Янгиюль город ,  Узбекистан',
-		uz: "Ko'ch. Faravon, Yangiyul shahar ,  O'zbekiston",
+    en: 'St. Faravon, Yangiyul city,  Uzbekistan',
+		ru: 'Ул. Фаравон, Янгиюль город,  Узбекистан',
+		uz: "Ko'ch. Faravon, Yangiyol shahar,  O'zbekiston",
   },
   footerSocialsTitle: {
     en: 'Social Media',
