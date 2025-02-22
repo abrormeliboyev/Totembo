@@ -269,8 +269,8 @@ const languageArr = {
 	},
 	// FOOTER ADDRESS
   footerAddress: {
-    en: 'St. Faravon, Yangiyul city , Tashkent, Uzbekistan',
-		ru: 'Ул. Фаравон,Яангиюль город ,  Узбекистан',
+    en: 'St. Faravon, Yangiyul city ,  Uzbekistan',
+		ru: 'Ул. Фаравон, Янгиюль город ,  Узбекистан',
 		uz: "Ko'ch. Faravon, Yangiyul shahar ,  O'zbekiston",
   },
   footerSocialsTitle: {
