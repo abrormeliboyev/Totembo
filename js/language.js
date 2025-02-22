@@ -269,7 +269,7 @@ const languageArr = {
 	},
 	// FOOTER ADDRESS
   footerAddress: {
-    en: 'St. Faravon, Yangiyol district, Tashkent, Uzbekistan',
+    en: 'St. Faravon, Yangiyol City, Tashkent, Uzbekistan',
 		ru: 'Ул. Фаравон,Яангийол  район, Ташкент, Узбекистан',
 		uz: "Ko'ch. Faravon, Yangiyol tumani, Toshkent, O'zbekiston",
   },
